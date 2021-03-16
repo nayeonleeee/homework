@@ -1,0 +1,140 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+	background-color: #f5f6f7;
+	font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+#header{
+	padding-top: 62px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#logo{
+	width: 240px;
+	height: 44px;
+	cursor: pointer;
+}
+#content{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 460px;
+}
+h3{
+	margin: 19px 0 8px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.box{
+	display: block;
+	width: 100%;
+	height: 51px;
+	border: solid 1px #dadada;
+	padding: 10px 14px 10px 14px;
+	box-sizing: border-box;
+	background: #fff;
+	position: relative;
+}
+.int{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 29px;
+	border:none;
+	background: #fff;
+	font-size: 15px;
+}
+input{
+	font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+.box.int_id{
+	padding-right: 110px;
+}
+.box.int_px{
+	padding-right: 40px;
+}
+.step_url{
+	position: absolute;
+	top: 16px;
+	right: 13px;
+	font-size: 15px;
+	color: #8e8e8e;
+}
+.pwImg{
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.container{
+	display: grid;
+	grid-template-rows: repeat(1, 51px);
+	grid-template-columns: [first] 145px [line2] 147px [line3] 145px [end];
+	grid-gap: 0 10px;
+	align-content: space-around;
+	border: solid 1px #dadada;
+}
+#bir_yy{
+	width: 147px;
+	height: 51px;
+}
+#bir_mm{
+	width: 147px;
+	vertical-align: middle;
+}
+#bir_dd{
+	width: 147px;
+	height: 51px;
+}
+#bir_mm, #bir_dd{
+	padding-left: 10px;
+}
+select{
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+	background-size: 20px 8px;
+	-webkit-appearance: none;
+	display: inline-block;
+	text-align: start;
+	border: none;
+	cursor: default;
+	font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+.btn_area1{
+	margin: 30px 0 50px;
+}
+#btn_check{
+	vertical-align: right;
+	width: 30%;
+	padding: 20px 0 17px;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	background-color: #08a600;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+.btn_area2{
+	margin: 30px 0 91px;
+}
+#btnJoin{
+	width: 100%;
+	padding: 21px 0 17px;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	background-color: #08a600;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
